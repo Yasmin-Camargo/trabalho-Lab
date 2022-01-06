@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;   
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: coral;
+}
+
+a{
+    font-weight: bold;
+    color: coral;
+}
+
+a:hover{
+    color:rgb(19, 10, 4);
+}
+
+.linkbranco{
+    color: white;
+    font-weight: bolder;
+}
+
+p{
+    text-align: justify;
+}
+
+section{
+    background-color: coral;
+    color: white;
+    font-size: large;
+    padding: 25px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.menu{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.corpo{
+    padding: 0.5cm;
+}
+
+#tabela{
+    padding-left: 25px;
+}
+
+footer{
+    padding-left: 0.5cm;
+    background-color: coral;
+    color: white;
+    padding-bottom: 1cm;
+    font-weight: normal;
+    font-size: medium;
+}
+
+div > img{
+    display: none;
+}
+
+div:hover > img{
+    display: block;
+}
+
+
